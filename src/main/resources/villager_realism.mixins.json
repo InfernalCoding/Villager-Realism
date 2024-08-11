@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "net.infernal_coding.villager_realism.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "villager_realism.refmap.json",
+  "mixins": [
+    "AbstractArrowEntityMixin",
+    "EffectMixin",
+    "LivingEntityMixin",
+    "MeleeAttackGoalMixin",
+    "VillagerEntityMixin",
+    "tasks.PanicTaskMixin",
+    "tasks.SleepAtHomeTaskMixin",
+    "tasks.UpdateActivityTaskMixin",
+    "tasks.VillagerTasksMixin"
+  ],
+  "minVersion": "0.8"
+}
